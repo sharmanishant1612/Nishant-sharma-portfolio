@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import './Home.css'
+import './home.css'
 import Navbar from '../navbar/Navbar'
-import image from './nishant-sharma.png'
+import image from './nishant sharma.png'
 function Home(){
 
   let [tasks,settasks] = useState(["Full-Stack Developer","Lifelong learner","DSA Ehthuasiast","Problem Solver","Tech Innovator"])

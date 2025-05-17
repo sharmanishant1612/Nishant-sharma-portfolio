@@ -1,0 +1,44 @@
+ @media screen and (min-width:400px) and (max-width:640px) {
+    #fisrtdiv{
+      height: 3rem;
+      width: 4rem;
+    }
+}
+
+
+@media screen and  (max-width:400px) {
+  #fisrtdiv{
+    height: 3rem ;
+    width: 7rem;
+  }
+}
+
+ @media screen and (min-width:400px) and (max-width:640px) {
+    #seconddiv{
+      height: 3rem;
+      width: 3.5rem;
+    }
+}
+
+
+@media screen and  (max-width:400px) {
+  #seconddiv{
+    height: 3rem ;
+    width: 4rem;
+  }
+}
+
+ @media screen and (min-width:400px) and (max-width:640px) {
+    #thirddiv{
+      height: 3rem;
+      width: 3.5rem;
+    }
+}
+
+
+@media screen and  (max-width:400px) {
+  #thirddiv{
+    height: 3rem ;
+    width: 4rem;
+  }
+}

@@ -1,0 +1,13 @@
+@media screen and (min-width:400px) and (max-width:640px) {
+    #anchor{
+      
+      width: 25%;
+    }
+}
+
+@media screen and  (max-width:400px) {
+    #anchor{
+      
+      width: 28%;
+    }
+  }

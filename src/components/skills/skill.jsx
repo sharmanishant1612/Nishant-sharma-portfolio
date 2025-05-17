@@ -29,8 +29,8 @@ function Skill(){
                         {/* inner div */}
                         <div className="w-[100%] sm:w-[75%] flex flex-wrap justify-evenly sm:justify-between pb-5">
                             
-                            <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 drop-shadow-lg " id="anchor">
-                            <div className='h-[50%] w-[50%] sm:h-[55%] sm:w-[65%] lg:h-[65%] md:w-[55%]   bg-orange-200/15 rounded-full flex flex-row justify-center items-center'>
+                            <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group  " id="anchor">
+                            <div className='h-[50%] w-[50%] sm:h-[55%] sm:w-[65%] lg:h-[65%] md:w-[55%]   bg-orange-200/15 rounded-full flex flex-row justify-center items-center group-hover:drop-shadow-lg shadow-white'>
                             <img src={html} alt="" className='h-[80%] sm:h-[90%] w-[80%] '/> 
                             </div>
                             <p className='text-white text-[1.2em] font-semibold'>HTML</p>

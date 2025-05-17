@@ -12,8 +12,8 @@ function Project(){
                     
                 <div className="w-[90%] md:w-[90%] flex flex-wrap justify-center sm:justify-between ">
 
-                    <div className="h-[]  sm:py-0  sm:w-[18rem] md:w-[20rem] lg:w-[22rem] bg-slate-900 mt-3 rounded-lg flex flex-col items-center ">
-                        <img src={currency} alt="" className='h-[12rem] w-[90%] mt-2 rounded-md object-fill'/>
+                    <div className="h-[]  sm:py-0  sm:w-[18rem] md:w-[20rem] lg:w-[22rem] bg-slate-900 mt-3 rounded-lg flex flex-col items-center border border-black/5 hover:border-blue-400 hover:transition-all duration-300 group">
+                        <img src={currency} alt="" className='h-[12rem] w-[90%] mt-2 rounded-md object-fill group-hover:scale-105 duration-300'/>
                         <div className='h-[2.5rem] w-[90%] flex justify-between items-center text-white/90 mt-2 '>
                             <p className='text-[1.3em] font-semibold'>Curreny Convertor </p>
 
@@ -26,7 +26,7 @@ function Project(){
                             Currency Converter is a web app that lets users convert currencies using real-time exchange rates. Built with HTML, CSS, and JavaScript for a simple, responsive experience.
                         </p>
  
-                        <div className='w-[90%] h-[2.3rem] mt-2 flex mb-7'>
+                        <div className='w-[90%] h-[2.3rem] mt-2 flex mb-7 '>
 
                             <div className='h-[95%]  w-[12%] bg-slate-600/30 flex justify-center items-center rounded-md'>
                                 <img src={react} alt="" className='h-[90%] w-[90%]'/>
@@ -40,8 +40,8 @@ function Project(){
 
                     </div>
 
-                    <div className="h-[] py-3 sm:py-0 mt-14 sm:w-[18rem] md:w-[20rem] lg:w-[22rem] bg-slate-900 sm:mt-3 rounded-lg flex flex-col items-center">
-                        <img src={todo} alt="" className='h-[12rem] w-[90%] mt-2 rounded-md object-fill'/>
+                    <div className="h-[] py-3 sm:py-0 mt-14 sm:w-[18rem] md:w-[20rem] lg:w-[22rem] bg-slate-900 sm:mt-3 rounded-lg flex flex-col items-center border border-black/5 hover:border-blue-400 hover:transition-all duration-300 group ">
+                        <img src={todo} alt="" className='h-[12rem] w-[90%] mt-2 rounded-md object-fill group-hover:scale-105 transform-all duration-300'/>
                         <div className='h-[2.5rem] w-[90%] flex justify-between items-center text-white/90 mt-2'>
                             <p className='text-[1.2em] font-semibold'>To-Do List App </p>
 
@@ -64,8 +64,8 @@ function Project(){
 
                         </div>
                     </div>
-                    <div className="h-[] py-3 sm:py-0 mt-14 mb-8 sm:mb-0 sm:w-[18rem] md:w-[20rem] lg:w-[22rem] bg-slate-900 sm:mt-3 rounded-lg flex flex-col items-center">
-                        <img src={todo} alt="" className='h-[12rem] w-[90%] mt-2 rounded-md object-fill'/>
+                    <div className="h-[] py-3 sm:py-0 mt-14 mb-8 sm:mb-0 sm:w-[18rem] md:w-[20rem] lg:w-[22rem] bg-slate-900 sm:mt-3 rounded-lg flex flex-col items-center border border-black/5 hover:border-blue-400 hover:transition-all duration-300 group">
+                        <img src={todo} alt="" className='h-[12rem] w-[90%] mt-2 rounded-md object-fill group-hover:scale-105 duration-300'/>
                         <div className='h-[2.5rem] w-[90%] flex justify-between items-center text-white/90 mt-2'>
                             <p className='text-[1.2em] font-semibold'>Portfolio </p>
 

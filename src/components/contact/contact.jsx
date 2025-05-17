@@ -12,9 +12,9 @@ function Contact(){
                          <div className="md:h-[28rem] md:w-[48%] bg-slate-900 rounded-lg mt-3 text-white pb-5 px-3 sm:px-0">
                             <p className="text-[1.5em] font-semibold pl-2 pt-5 sm:pl-7 text-white">Let's Connect</p>
                             <p className="pt-5 pl-2 sm:pl-7 pr-4 font-semibold text-white/80 text-[1.02em]">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
-                            <p className="pl-2 pt-5  sm:pl-7 text-white/70" id="mgl"><i className="fa-regular fa-envelope text-xl"></i><span className="pl-2 md:pl-2 sm:pl-4">sunnyvermaverma2005@gmail.com</span></p>
-                            <p className="pl-2 pt-2  sm:pl-7 text-white/70" id="mgl"><i className="fa-brands fa-github text-xl"></i><span className="pl-2 md:pl-2 lg:pl-4">github.com/sunnyV0207</span></p>
-                            <p className="pl-2 pt-2  sm:pl-7 text-white/70" id="mgl"><i className="fa-brands fa-linkedin-in text-xl"></i><span className="pl-2 md:pl-2 lg:pl-4">linkedin.com/in/sunny-verma-604519302</span></p>
+                            <p className="pl-2 pt-5  sm:pl-7 text-white/70" id="mgl"><i className="fa-regular fa-envelope text-xl"></i><span className="pl-2 md:pl-2 sm:pl-4">sharmanishant08751@gmail.com</span></p>
+                            <p className="pl-2 pt-2  sm:pl-7 text-white/70" id="mgl"><i className="fa-brands fa-github text-xl"></i><span className="pl-2 md:pl-2 lg:pl-4">github.com/sharmanishant1612</span></p>
+                            <p className="pl-2 pt-2  sm:pl-7 text-white/70" id="mgl"><i className="fa-brands fa-linkedin-in text-xl"></i><span className="pl-2 md:pl-2 lg:pl-4">linkedin.com/in/nishant-sharma-a2b15027b/</span></p>
                         </div>
                         {/* second div */}
                         <div className="h-[29rem] md:h-[28rem] md:w-[48%] bg-slate-900 rounded-lg mt-3 flex justify-center items-center mb-5">

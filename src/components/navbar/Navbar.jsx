@@ -4,6 +4,10 @@ function Navbar(){
 
     let [hamberger,sethamberger] = useState(true)
 
+    let changehamberger = ()=>{
+        sethamberger(!hamberger)
+    }
+
 
     return(
 
@@ -23,16 +27,16 @@ function Navbar(){
                             <a href="#skills" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Skills</a>
                             <a href="#projects" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Projects</a>
                             <a href="" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Github</a>
-                            <a href="" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Leetcode</a>
-                            <a href="" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Badges</a>
+                            <a href="#leetcode" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Leetcode</a>
+                            <a href="#badges" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Badges</a>
                             <a href="" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Blogs</a>
                             <a href="" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Experience</a>
                             <a href="" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Certifications</a>
-                            <a href="" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Education</a>
+                            <a href="#education" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Education</a>
                         </div>
                         {/* 3rd div */}
                         <div className='h-[80%] w-[15%] bg-blue-500 rounded-md lg:flex justify-center items-center text-white hidden mr-2'>                       
-                         <a href="" className="text-[1em]">Request a Project<i className="fa-solid fa-arrow-right text-[1.1em] pl-1"></i></a>
+                         <a href="#contact" className="text-[1em]">Request a Project<i className="fa-solid fa-arrow-right text-[1.1em] pl-1"></i></a>
                            
                         </div>
                         {/* hamberger div */}
@@ -48,18 +52,18 @@ function Navbar(){
                          {/* Navbaar ends */}
 
                         <div className={hamberger?"hidden" : "w-[90%] fixed top-[69px]  text-white flex flex-col items-center pt-2 lg:hidden bg-slate-900 "}>
-                            <a href="#home" className='hover:text-blue-400 p-1 text-[1.2em]'>Home</a>
-                            <a href="#about" className='hover:text-blue-400 p-1 text-[1.2em]'>About</a>
-                            <a href="#skills" className='hover:text-blue-400 p-1 text-[1.2em]'>Skills</a>
-                            <a href="#projects" className='hover:text-blue-400 p-1 text-[1.2em]'>Projects</a>
-                            <a href="" className='hover:text-blue-400 p-1 text-[1.2em]'>Github</a>
-                            <a href="" className='hover:text-blue-400 p-1 text-[1.2em]'>Leetcode</a>
-                            <a href="" className='hover:text-blue-400 p-1 text-[1.2em]'>Badges</a>
-                            <a href="" className='hover:text-blue-400 p-1 text-[1.2em]'>Blogs</a>
-                            <a href="" className='hover:text-blue-400 p-1 text-[1.2em]'>Experience</a>
-                            <a href="" className='hover:text-blue-400 p-1 text-[1.2em]'>Certifications</a>
-                            <a href="" className='hover:text-blue-400 p-1 text-[1.2em]'>Education</a>
-                            <a href="" className="text-[1.2em] p-1"><button className="bg-blue-500 p-1 rounded-md">Request a Project<i className="fa-solid fa-arrow-right text-[1.1em] pl-1"></i></button></a> 
+                            <a href="#home" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Home</a>
+                            <a href="#about" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>About</a>
+                            <a href="#skills" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Skills</a>
+                            <a href="#projects" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Projects</a>
+                            <a href="" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Github</a>
+                            <a href="#leetcode" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Leetcode</a>
+                            <a href="#badges" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Badges</a>
+                            <a href="" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Blogs</a>
+                            <a href="" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Experience</a>
+                            <a href="" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Certifications</a>
+                            <a href="#education" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Education</a>
+                            <a href="#contact" className="text-[1.2em] p-1"><button className="bg-blue-500 p-1 rounded-md" onClick={changehamberger}>Request a Project<i className="fa-solid fa-arrow-right text-[1.1em] pl-1"></i></button></a> 
                         </div>
                 </div>
 

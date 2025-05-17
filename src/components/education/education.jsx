@@ -3,7 +3,7 @@ import './education.css'
 function Education(){
     return(
         <>
-            <div className=" bg-slate-900">
+            <div className=" bg-slate-900" id='education'>
                 <p className="text-indigo-400 text-[2.5em] font-semibold text-center pt-16">Education</p>
 
                 <div className=" flex flex-col items-center">

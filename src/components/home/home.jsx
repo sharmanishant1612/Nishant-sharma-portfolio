@@ -44,21 +44,21 @@ function Home(){
                           <span className='text-[2em] sm:text-[3em]  font-bold 
                           bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-700 bg-clip-text text-transparent'>Nishant Sharma</span>
                          
-                          <p className='text-[1.3em] sm:text-[1.7em] text-white'>I'm a <span className='bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-700 bg-clip-text text-transparent'>{tasks[variable]}</span></p>
+                          <p className='text-[1.3em] sm:text-[1.7em] text-white/90'>I'm a <span className='bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-700 bg-clip-text text-transparent'>{tasks[variable]}</span></p>
                         
                           <p className='flex flex-col items-center mt-4'>
                            
-                          <span className=' sm:text-[1.2em] text-white hover:transform hover:scale-105 hover:text-blue-300'>
+                          <span className=' sm:text-[1.2em] text-white/90 hover:transform hover:scale-105 hover:text-blue-300'>
                           <i className="fa-solid fa-phone text-blue-300 mr-1"></i>
                           +91 9410677716
                           </span>
                          
-                          <span className=' sm:text-[1.2em] text-white pt-1 hover:transform hover:scale-105 hover:text-blue-300'>
+                          <span className=' sm:text-[1.2em] text-white/90 pt-1 hover:transform hover:scale-105 hover:text-blue-300'>
                           <i className="fa-solid fa-envelope text-blue-300 mr-2"></i>
                            sharmanishant08751@gmail.com
                           </span>
                          
-                           <span className=' sm:text-[1.2em] text-white pt-1 hover:text-blue-300'>
+                           <span className=' sm:text-[1.2em] text-white/90 pt-1 hover:text-blue-300'>
                            <i className="fa-solid fa-location-dot text-blue-300 mr-2"></i>
                             Ghaziabad,India
                            </span>
@@ -67,14 +67,14 @@ function Home(){
                           <p className='mt-5 text-white'>
                             
                             <a href="">
-                            <button className='bg-blue-600  rounded-md sm:text-xl p-1 sm:p-2 hover:transform hover:scale-105'>
+                            <button className='bg-blue-600  rounded-md sm:text-xl p-1 sm:p-2 hover:transform hover:scale-105 px-3'>
                              <i className="fa-solid fa-file mr-2"></i>
                              View Resume
                              </button>
                             </a>
                             
                             <a href="">
-                            <button className=' rounded-md ml-3 border border-blue-400 sm:text-xl p-1 sm:p-1.5 hover:transform hover:scale-105 hover:text-blue-300'>
+                            <button className=' rounded-md ml-3 border border-blue-400 sm:text-xl p-1 sm:p-1.5 hover:transform hover:scale-105 hover:text-blue-300 px-3'>
                              <i className="fa-solid fa-envelope mr-2"></i>
                              Contact Me
                              </button>
@@ -82,15 +82,15 @@ function Home(){
                           </p>
                          
                           <div className='h-[12%] w-[60%] sm:h-[15%] sm:w-[60%] md:h-[12%] md:w-[60%] mt-7 mb-5 flex justify-between items-center '>
-                          <a href='https://github.com/sharmanishant1612' className='h-[75%] w-[22%]  bg-white/10 rounded-md flex justify-center items-center hover:transform hover:-translate-y-1'>
+                          <a href='https://github.com/sharmanishant1612' className='h-[75%] w-[22%]  bg-white/10 rounded-md flex justify-center items-center lg:hover:transform lg:hover:-translate-y-1'>
                             <i className="fa-brands fa-github text-white text-2xl sm:text-3xl  md:text-2xl"></i></a>
                           <a href='https://www.linkedin.com/in/nishant-sharma-a2b15027b/'
-                        className='h-[75%] w-[22%] bg-white/10 rounded-md flex justify-center items-center hover:transform hover:-translate-y-1'>
+                        className='h-[75%] w-[22%] bg-white/10 rounded-md flex justify-center items-center lg:hover:transform lg:hover:-translate-y-1'>
                             <i className="fa-brands fa-linkedin-in text-blue-600 text-2xl sm:text-3xl md:text-2xl"></i></a>
-                          <a href='https://www.instagram.com/sharmanishant1612/' className='h-[75%] w-[22%] bg-white/10 rounded-md flex justify-center items-center hover:transform hover:-translate-y-1'>
+                          <a href='https://www.instagram.com/sharmanishant1612/' className='h-[75%] w-[22%] bg-white/10 rounded-md flex justify-center items-center lg:hover:transform lg:hover:-translate-y-1'>
                             <i className="fa-brands fa-instagram text-pink-600 text-2xl sm:text-3xl md:text-2xl"></i></a>
                           <a href='https://wa.me/9027259417?text=Hello! Nishant Sharma , Its great connecting with you.'
-                           className='h-[75%] w-[22%] bg-white/10 rounded-md flex justify-center items-center hover:transform hover:-translate-y-1'>
+                           className='h-[75%] w-[22%] bg-white/10 rounded-md flex justify-center items-center lg:hover:transform lg:hover:-translate-y-1'>
                             <i className="fa-brands fa-whatsapp text-green-400 text-2xl sm:text-3xl md:text-2xl"></i></a>
                           </div>
                         </div>

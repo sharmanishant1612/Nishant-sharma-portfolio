@@ -3,7 +3,7 @@ import leetcode from './leetcode.png'
 function Leetcode(){
     return(
         <>
-            <div className="md:h-screen bg-slate-900">
+            <div className="md:h-screen bg-slate-900" id='leetcode'>
                 <p className="text-indigo-400 text-[2rem] sm:text-[2.5rem] font-semibold text-center pt-20">LeetCode Progress</p>
 
                 <div className="w-[100%] mt-5 flex flex-col items-center md:flex-row md:justify-around ">

@@ -1,13 +1,13 @@
 import './App.css'
-import Navbar from './components/navbar/Navbar'
-import Home from './components/home/home'
-import About from './components/about/about'
-import Skill from './components/skills/skill'
-import Project from './components/projects/project'
-import Leetcode from './components/leetcode/leetcode'
-import Badges from './components/badges/badges'
-import Education from './components/education/education'
-import Contact from './components/contact/contact'
+import Navbar from './components/navbar/Navbar.jsx'
+import Home from './components/home/home.jsx'
+import About from './components/about/about.jsx'
+import Skill from './components/skills/skill.jsx'
+import Project from './components/projects/project.jsx'
+import Leetcode from './components/leetcode/leetcode.jsx'
+import Badges from './components/badges/badges.jsx'
+import Education from './components/education/education.jsx'
+import Contact from './components/contact/contact.jsx'
 function App() {
   
 

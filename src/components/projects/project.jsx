@@ -1,6 +1,6 @@
 import currency from './currency.jpg'
 import todo from './todo.jpg'
-import react from './react.svg'
+import react from './React.svg'
 import tailwind from './tailwindcss.png'
 function Project(){
     return(

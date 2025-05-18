@@ -22,7 +22,7 @@ function Navbar(){
                         </div>
                         {/* second div */}
                         <div className='h-[80%] w-[75%] lg:flex justify-around items-center text-white font-sans hidden'>
-                            <a href="#home" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Home</a>
+                            <a href="#home" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0 '>Home</a>
                             <a href="#about" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>About</a>
                             <a href="#skills" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Skills</a>
                             <a href="#projects" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Projects</a>

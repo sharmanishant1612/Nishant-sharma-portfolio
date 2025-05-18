@@ -158,13 +158,13 @@ function Home(){
                           <p className='mt-5 text-white'>
                             
                             <a href="">
-                            <button className='bg-blue-600  rounded-md sm:text-xl p-1 sm:p-2 hover:transform hover:scale-105 px-3'>
+                            <button className='bg-blue-600  rounded-md sm:text-xl p-1 sm:p-2 hover:transform hover:scale-105 px-3' onClick={() => window.open('/NishantSharma.pdf')}>
                              <i className="fa-solid fa-file mr-2"></i>
                              View Resume
                              </button>
                             </a>
                             
-                            <a href="">
+                            <a href="#contact">
                             <button className=' rounded-md ml-3 border border-blue-400 sm:text-xl p-1 sm:p-1.5 hover:transform hover:scale-105 hover:text-blue-300 px-3'>
                              <i className="fa-solid fa-envelope mr-2"></i>
                              Contact Me
@@ -180,7 +180,7 @@ function Home(){
                             <i className="fa-brands fa-linkedin-in text-blue-600 text-2xl sm:text-3xl md:text-2xl"></i></a>
                           <a href='https://www.instagram.com/sharmanishant1612/' className='h-[75%] w-[22%] bg-white/10 rounded-md flex justify-center items-center lg:hover:transform lg:hover:-translate-y-1'>
                             <i className="fa-brands fa-instagram text-pink-600 text-2xl sm:text-3xl md:text-2xl"></i></a>
-                          <a href='https://wa.me/9027259417?text=Hello! Nishant Sharma , Its great connecting with you.'
+                          <a href='https://wa.me/9410677716?text=Hello! Nishant Sharma , Its great connecting with you.'
                            className='h-[75%] w-[22%] bg-white/10 rounded-md flex justify-center items-center lg:hover:transform lg:hover:-translate-y-1'>
                             <i className="fa-brands fa-whatsapp text-green-400 text-2xl sm:text-3xl md:text-2xl"></i></a>
                           </div>

@@ -18,8 +18,8 @@ function Project(){
                             <p className='text-[1.3em] font-semibold'>Curreny Convertor </p>
 
                             <p>
-                            <a href=""><i className="fa-brands fa-github mr-7 text-[1.5em]"></i></a>
-                            <a href=""><i className="fa-solid fa-globe mr-3 text-[1.5em]"></i></a>
+                            <a href="https://github.com/sharmanishant1612/currency-converter"><i className="fa-brands fa-github mr-7 text-[1.5em]"></i></a>
+                            <a href="https://currency-converter-psi-livid.vercel.app/"><i className="fa-solid fa-globe mr-3 text-[1.5em]"></i></a>
                             </p>
                         </div>
                         <p className='w-[90%] text-white/80 font-semibold pt-2'>
@@ -46,8 +46,8 @@ function Project(){
                             <p className='text-[1.2em] font-semibold'>To-Do List App </p>
 
                             <p>
-                            <a href=""><i className="fa-brands fa-github mr-7 text-[1.5em]"></i></a>
-                            <a href=""><i className="fa-solid fa-globe mr-3 text-[1.5em]"></i></a>
+                            <a href="https://github.com/sharmanishant1612/todo-list"><i className="fa-brands fa-github mr-7 text-[1.5em]"></i></a>
+                            <a href="https://todo-list-rho-ten-58.vercel.app/"><i className="fa-solid fa-globe mr-3 text-[1.5em]"></i></a>
                             </p>
                         </div>
                          <p className='w-[90%] text-white/80 font-semibold pt-2'>
@@ -70,8 +70,8 @@ function Project(){
                             <p className='text-[1.2em] font-semibold'>Portfolio </p>
 
                             <p>
-                            <a href=""><i className="fa-brands fa-github mr-7 text-[1.5em]"></i></a>
-                            <a href=""><i className="fa-solid fa-globe mr-3 text-[1.5em]"></i></a>
+                            <a href="https://github.com/sharmanishant1612/Nishant-sharma-portfolio"><i className="fa-brands fa-github mr-7 text-[1.5em]"></i></a>
+                            <a href="https://nishant-sharma-portfolio-f55h.vercel.app/"><i className="fa-solid fa-globe mr-3 text-[1.5em]"></i></a>
                             </p>
                         </div>
                          <p className='w-[90%] text-white/80 font-semibold pt-2'>

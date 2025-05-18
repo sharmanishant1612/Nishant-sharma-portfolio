@@ -108,6 +108,13 @@ function Home(){
   },[currentProfession,letterIndex,professionIndex,isDeleting,pauseForDeleting])
 
 
+
+  // <button className='bg-blue-600  rounded-md sm:text-xl p-1 sm:p-2 hover:transform hover:scale-105 px-3' onClick={() => window.open('/NishantSharma.pdf')}>
+                            //  <i className="fa-solid fa-file mr-2"></i>
+                            //  View Resume
+                            //  </button>
+
+
     return(
         <>
            
@@ -157,11 +164,10 @@ function Home(){
                          
                           <p className='mt-5 text-white'>
                             
-                            <a href="">
-                            <button className='bg-blue-600  rounded-md sm:text-xl p-1 sm:p-2 hover:transform hover:scale-105 px-3' onClick={() => window.open('/NishantSharma.pdf')}>
-                             <i className="fa-solid fa-file mr-2"></i>
-                             View Resume
-                             </button>
+                            <a href="/NishantSharma.pdf" target='_blank' className='bg-blue-600  rounded-md sm:text-xl p-1 sm:p-2 hover:transform hover:scale-105 px-3'>
+                              <i className="fa-solid fa-file mr-2"></i>
+                               View Resume
+                            
                             </a>
                             
                             <a href="#contact">

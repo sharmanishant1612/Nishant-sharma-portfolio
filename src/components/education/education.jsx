@@ -27,7 +27,7 @@ function Education(){
                             </div>
                         </div> 
                          
-                        <div className="h-[3rem] bg-blue-600 w-[.2rem] ml-16"></div> 
+                        <div className="h-[3rem] bg-blue-600 w-[.2rem] ml-[13%] sm:ml-16"></div> 
                         {/*second div  */}                    
                          <div className=" pt-5 pb-5 w-[100%] border border-black/5  bg-slate-800 rounded-lg flex flex-col justify-center h hover:border-blue-500 transition-all duration-300 ">
                             <div className="h-  flex sm:items-center pl-6 text-white">
@@ -40,11 +40,11 @@ function Education(){
                                 </div>
                             </div>
                             <div className=" mt-3 sm:flex pt-1 pl-20 sm:pl-24 text-white/50">
-                                <p><i className="fa-solid fa-calendar-days"></i><span className="pl-2">2022 - 2026</span></p>
-                                <p className="sm:pl-6 mt-3 sm:mt-0"><i className="fa-solid fa-award"></i><span className="pl-2">Score: 80%</span></p>
+                                <p><i className="fa-solid fa-calendar-days"></i><span className="pl-2">2021 - 2022</span></p>
+                                <p className="sm:pl-6 mt-3 sm:mt-0"><i className="fa-solid fa-award"></i><span className="pl-2">Score: 77%</span></p>
                             </div>
                          </div>
-                         <div className="h-[3rem] bg-blue-600 w-[.2rem] ml-16"></div>
+                         <div className="h-[3rem] bg-blue-600 w-[.2rem] ml-[13%] sm:ml-16"></div>
                          {/* third div */}
                          <div className="pt-5 pb-5 w-[100%] border-[1px] border-white/5   bg-slate-800 rounded-lg flex flex-col justify-center  transition-all duration-300 hover:border-blue-500">
                             <div className="h-  flex sm:items-center pl-6 text-white">
@@ -57,8 +57,8 @@ function Education(){
                                 </div>
                             </div>
                             <div className=" mt-3 sm:flex pt-1 pl-20 sm:pl-24 text-white/50">
-                                <p><i className="fa-solid fa-calendar-days"></i><span className="pl-2">2022 - 2026</span></p>
-                                <p className="sm:pl-6 mt-3 sm:mt-0"><i className="fa-solid fa-award"></i><span className="pl-2">Score: 80%</span></p>
+                                <p><i className="fa-solid fa-calendar-days"></i><span className="pl-2">2019 - 2020</span></p>
+                                <p className="sm:pl-6 mt-3 sm:mt-0"><i className="fa-solid fa-award"></i><span className="pl-2">Score: 82%</span></p>
                             </div>
                          </div>
                          

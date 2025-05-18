@@ -4,18 +4,109 @@ import Navbar from '../navbar/Navbar'
 import image from './nishant sharma.png'
 function Home(){
 
-  let [tasks,settasks] = useState(["Full-Stack Developer","Lifelong learner","DSA Ehthuasiast","Problem Solver","Tech Innovator"])
-  let [variable,setvariable] = useState(0)
+  // let [tasks,settasks] = useState(["Full-Stack Developer","Lifelong learner","DSA Ehthuasiast","Problem Solver","Tech Innovator"])
+  // let [variable,setvariable] = useState(0)
 
-  useEffect(()=>{
-    setTimeout(() => {
-        variable=variable+1
-        let value = variable%tasks.length
-        setvariable(value)
-    }, 2000);
-  },[variable])
+  // useEffect(()=>{
+  //   setTimeout(() => {
+  //       variable=variable+1
+  //       let value = variable%tasks.length
+  //       setvariable(value)
+  //   }, 2000);
+
+  // },[variable])
 
   // outer div css w-[100%] inner div w-[100%]  lg:w-[90%]
+
+  const professions = ["Full-Stack Developer", "DSA Enthusiast", "Problem Solver", "Tech Innovator", "Lifelong Learner"]
+  const [currentProfession,setCurrentProfession] = useState('');
+  const [professionIndex,setCurrentProfessionIndex] = useState(0);
+  const [letterIndex,setLetterIndex] = useState(0);
+  const [isDeleting,setIsDeleting] = useState(false);
+  const [pauseForDeleting,setPauseForDeleting] = useState(false);
+
+  useEffect(()=>{
+    // let currentString = professions[professionIndex];
+
+    // if (pauseBeforeDelete) {
+    //   // Wait 1 second before deleting
+    //   const pauseTimeout = setTimeout(() => {
+    //     setPauseBeforeDelete(false);
+    //     setIsDeleting(true);
+    //   }, 1000);
+    //   return () => clearTimeout(pauseTimeout);
+    // }
+
+    // let timeout = setTimeout(()=>{
+    //   if(!isDeleting){
+    //     if(letterIndex < currentString.length){
+    //       setCurrentProfession(currentProfession + currentString[letterIndex]);
+    //       setLetterIndex(letterIndex + 1);
+    //     }else{
+    //       setPauseBeforeDelete(true);
+    //       // setIsDeleting(true);
+    //     }
+    //   }else{
+    //     if(letterIndex > 0){
+    //       setCurrentProfession(currentProfession.slice(0,letterIndex-1));
+    //       setLetterIndex(letterIndex - 1);
+    //     }else{
+    //       setIsDeleting(false);
+    //       setCurrentProfessionIndex((professionIndex + 1) % professions.length);
+    //     }
+    //   }
+    // },100)
+
+    // return ()=> clearTimeout(timeout);
+
+    let currentString = professions[professionIndex];
+
+    if(pauseForDeleting){
+      const pause = setTimeout(()=>{
+        setPauseForDeleting(false);
+        setIsDeleting(true);
+      },1000)
+      return ()=> clearTimeout(pause);
+    }
+
+    let timeout = setTimeout(()=>{
+      if(!isDeleting){
+        if(letterIndex < currentString.length){
+          setCurrentProfession(currentProfession + currentString[letterIndex]);
+          setLetterIndex(letterIndex + 1);
+        }else{
+          setIsDeleting(true);
+          setPauseForDeleting(true);
+        }
+      }else{
+        if(letterIndex > 0){
+          setCurrentProfession(currentProfession.slice(0,letterIndex-1));
+          setLetterIndex(letterIndex - 1);
+        }else{
+          setIsDeleting(false);
+          setCurrentProfessionIndex((professionIndex + 1) % professions.length);
+        }
+      }
+    },100)
+
+    return ()=> clearTimeout(timeout);
+
+    // if(letterIndex < currentString.length){
+    //   const timeout = setTimeout(()=>{
+    //     setCurrentProfession(currentProfession + currentString[letterIndex]);
+    //     setLetterIndex(letterIndex + 1);
+    //   },100)
+    //   return ()=> clearTimeout(timeout);
+    // }else{
+    //   const pause = setTimeout(()=>{
+    //     setCurrentProfession('');
+    //     setLetterIndex(0);
+    //     setCurrentProfessionIndex((professionIndex + 1) % professions.length);
+    //   },1000)
+    //   return ()=> clearTimeout(pause);
+    // }
+  },[currentProfession,letterIndex,professionIndex,isDeleting,pauseForDeleting])
+
 
     return(
         <>
@@ -44,7 +135,7 @@ function Home(){
                           <span className='text-[2em] sm:text-[3em]  font-bold 
                           bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-700 bg-clip-text text-transparent'>Nishant Sharma</span>
                          
-                          <p className='text-[1.3em] sm:text-[1.7em] text-white/90'>I'm a <span className='bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-700 bg-clip-text text-transparent'>{tasks[variable]}</span></p>
+                          <p className='text-[1.3em] sm:text-[1.7em] text-white/90'>I'm a <span className='bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-700 bg-clip-text text-transparent'>{currentProfession}|</span></p>
                         
                           <p className='flex flex-col items-center mt-4'>
                            

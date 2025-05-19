@@ -9,8 +9,8 @@
 
  @media screen and (min-width:400px) and (max-width:640px) {
     #image{
-      height: 20rem;
-      width: 20rem;
+      height: 16rem;
+      width: 16rem;
     }
 }
 

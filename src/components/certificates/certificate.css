@@ -1,0 +1,29 @@
+ @media screen and (min-width:400px) and (max-width:640px) {
+    #image{
+      height: 70%;
+      width: 80%;
+    }
+}
+
+
+@media screen and  (max-width:400px) {
+  #image{
+    height: 60%;
+    width: 90%;
+  }
+}
+
+ @media screen and (min-width:400px) and (max-width:640px) {
+    #outerdiv{
+      height: 25rem;
+      width: 80%;
+    }
+}
+
+
+@media screen and  (max-width:400px) {
+  #outerdiv{
+    height: 20rem;
+    width: 100%;
+  }
+}

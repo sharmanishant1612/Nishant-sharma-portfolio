@@ -109,10 +109,6 @@ function Home(){
 
 
 
-  // <button className='bg-blue-600  rounded-md sm:text-xl p-1 sm:p-2 hover:transform hover:scale-105 px-3' onClick={() => window.open('/NishantSharma.pdf')}>
-                            //  <i className="fa-solid fa-file mr-2"></i>
-                            //  View Resume
-                            //  </button>
 
 
     return(
@@ -164,11 +160,12 @@ function Home(){
                          
                           <p className='mt-5 text-white'>
                             
-                            <a href="/NishantSharma.pdf" target='_blank' className='bg-blue-600  rounded-md sm:text-xl p-1 sm:p-2 hover:transform hover:scale-105 px-3'>
+                           
+
+                             <button className='bg-blue-600  rounded-md sm:text-xl p-1 sm:p-2 hover:transform hover:scale-105 px-3' onClick={() => window.open('/NishantSharma.pdf')}>
                               <i className="fa-solid fa-file mr-2"></i>
-                               View Resume
-                            
-                            </a>
+                              View Resume
+                              </button>
                             
                             <a href="#contact">
                             <button className=' rounded-md ml-3 border border-blue-400 sm:text-xl p-1 sm:p-1.5 hover:transform hover:scale-105 hover:text-blue-300 px-3'>

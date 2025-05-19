@@ -31,7 +31,7 @@ function Navbar(){
                             <a href="#badges" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Badges</a>
                             {/* <a href="" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Blogs</a> */}
                             {/* <a href="" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Experience</a> */}
-                            <a href="" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Certifications</a>
+                            <a href="#certificates" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Certifications</a>
                             <a href="#education" className='hover:text-blue-400 hover:border-b-2 border-b-blue-600 translate-x-0'>Education</a>
                         </div>
                         {/* 3rd div */}
@@ -61,7 +61,7 @@ function Navbar(){
                             <a href="#badges" className='hover:text-blue-400 pt-2 text-[1.2em]' onClick={changehamberger}>Badges</a>
                             {/* <a href="" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Blogs</a> */}
                             {/* <a href="" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Experience</a> */}
-                            {/* <a href="" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Certifications</a> */}
+                            <a href="#certificates" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Certifications</a>
                             <a href="#education" className='hover:text-blue-400 p-1 text-[1.2em]' onClick={changehamberger}>Education</a>
                             <a href="#contact" className="text-[1.2em] pt-2 pb-3"><button className="bg-blue-500 p-1 rounded-md" onClick={changehamberger}>Request a Project<i className="fa-solid fa-arrow-right text-[1.1em] pl-1"></i></button></a> 
                         </div>

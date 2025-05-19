@@ -25,10 +25,10 @@ function Contact(){
 
     return(
         <>
-         <div className="md:h-screen bg-slate-800" id='contact'>
+         <div className="md:h- bg-slate-800" id='contact'>
                 <p className="text-[2.5em] font-semibold text-indigo-400 text-center pt-16">Get In Touch</p>
 
-                <div className=" flex justify-center">
+                <div className=" flex justify-center pb-8 md:pb-16">
                     
                     <div className=" md:h-[30rem] w-[90%] sm:w-[80%] flex flex-col md:flex-row md:justify-between ">
                         {/* first div */}
@@ -40,7 +40,7 @@ function Contact(){
                             <p className="pl-2 pt-2  sm:pl-7 text-white/70" id="mgl"><i className="fa-brands fa-linkedin-in text-xl"></i><span className="pl-2 md:pl-2 lg:pl-4">linkedin.com/in/nishant-sharma-a2b15027b/</span></p>
                         </div>
                         {/* second div */}
-                        <div className="h-[29rem] md:h-[28rem] md:w-[48%] bg-slate-900 rounded-lg mt-3 flex justify-center items-center mb-5">
+                        <div className="h-[29rem] md:h-[28rem] md:w-[48%] bg-slate-900 rounded-lg mt-7 md:mt-3 flex justify-center items-center mb-5">
                             <div className="h-[90%] w-[90%]  text-white ">
                            <form action="" className="h-[100%]" ref={form} onSubmit={sendEmail}>
                              <p><label htmlFor="name" className="font-semibold">Name</label></p>

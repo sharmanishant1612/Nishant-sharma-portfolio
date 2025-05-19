@@ -8,6 +8,7 @@ import Leetcode from './components/leetcode/leetcode.jsx'
 import Badges from './components/badges/badges.jsx'
 import Education from './components/education/education.jsx'
 import Contact from './components/contact/contact.jsx'
+import Certificate from './components/certificates/certificate.jsx'
 function App() {
   
 
@@ -19,8 +20,10 @@ function App() {
       <Project/>
       <Leetcode/>
       <Badges/>
+      <Certificate/>
       <Education/>
       <Contact/>
+      
       
    </>
   )

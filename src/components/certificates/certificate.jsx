@@ -2,9 +2,10 @@ import { useEffect, useState } from 'react'
 import './certificate.css'
 import img1 from './certificate1.jpg'
 import img2 from './certificate2.jpg'
+import img3 from './certificate3.jpg'
 function Certificate(){
 
-    let [certificates,setcertificates] = useState([img1,img2])
+    let [certificates,setcertificates] = useState([img1,img2,img3])
     let [index,setindex] = useState(0)
 
     let increase =()=>{

@@ -30,9 +30,9 @@ function About(){
                     </div>
                     {/* list */}
                     <p className='mt-3 mb-5 pl-10 text-[1.1em] text-white/50'>
-                    <li className='pb-1'>A full-stack developer having interest in software engineering.</li>
-                    <li className='pb-1'>Enjoy solving problems and building scalable applications.</li>
-                    <li className='pb-1'>Always learning new technologies to improve my skills.</li>
+                    <li className='pb-1'>Develop high-performance web apps using modern tech stacks.</li>
+                    <li className='pb-1'>Solve algorithmic problems and optimize code efficiency.</li>
+                    <li className='pb-1'>Contribute to open-source and follow industry trends.</li>
                     </p>
                 </div>
                 <div className=' w-[90%] md:w-[45%] mt-5 md:mb-5  rounded-lg bg-slate-900 hover:-translate-y-2 duration-300 hover:shadow-[1px_1px_27px_-4px_rgb(21,_128,_61)]'>
@@ -44,9 +44,9 @@ function About(){
                     </div>
                     {/* list */}
                     <p className='mt-3 mb-5 pl-10 text-[1.1em] text-white/50 '>
-                    <li className='pb-1'>A full-stack developer having interest in software engineering.</li>
-                    <li className='pb-1'>Enjoy solving problems and building scalable applications.</li>
-                    <li className='pb-1'>Always learning new technologies to improve my skills.</li>
+                    <li className='pb-1'>Build tech products that solve real-world challenges at scale.</li>
+                    <li className='pb-1'>Advance as a full-stack developer with modern frameworks</li>
+                    <li className='pb-1'>Grow the dev community through open-source contributions..</li>
                     </p>
                     
                 </div>
@@ -58,9 +58,9 @@ function About(){
                     </div>
                     {/* list */}
                     <p className='mt-3 mb-5 pl-10 text-[1.1em] text-white/50'>
-                    <li className='pb-1'>A full-stack developer having interest in software engineering.</li>
-                    <li className='pb-1'>Enjoy solving problems and building scalable applications.</li>
-                    <li className='pb-1'>Always learning new technologies to improve my skills.</li>
+                    <li className='pb-1'>Technology should simplify lives, not complicate them.</li>
+                    <li className='pb-1'>Great software solves problems, not just writes code.</li>
+                    <li className='pb-1'>Continuous learning keeps you ahead in tech.</li>
                     </p>
                     
                 </div>

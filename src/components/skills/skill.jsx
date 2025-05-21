@@ -27,7 +27,7 @@ function Skill(){
 
                 <div className=" w-[100%] flex justify-center items-center mt-8">
                         {/* inner div */}
-                        <div className="w-[100%] sm:w-[75%] flex flex-wrap justify-evenly sm:justify-between pb-5">
+                        <div className="w-[100%] sm:w-[75%] flex flex-wrap justify-evenly sm:justify-between pb-5 sm:mb-16">
                             
                             <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group  " id="anchor">
                             <div className='h-[50%] w-[50%] sm:h-[55%] sm:w-[65%] lg:h-[65%] md:w-[55%]   bg-orange-200/15 rounded-full flex flex-row justify-center items-center '>
@@ -71,26 +71,26 @@ function Skill(){
                             <p className='text-white text-[1.2em] font-semibold'>Tailwind</p>
                             </a>
 
-                            <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
+                            {/* <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
                              <div className='h-[50%] w-[55%] sm:h-[55%] sm:w-[65%] lg:h-[65%] md:w-[55%] bg-violet-600/15 rounded-full flex flex-row justify-center items-center'>
                             <img src={redux} alt="" className='h-[90%] w-[80%] '/> 
                             </div>
                             <p className='text-white text-[1.2em] font-semibold'>Redux</p>
-                            </a>
+                            </a> */}
 
-                            <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
+                            {/* <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
                              <div className='h-[50%] w-[55%] sm:h-[55%] sm:w-[65%] lg:h-[65%] md:w-[55%] bg-green-500/15 rounded-full flex flex-row justify-center items-center'>
                             <img src={node} alt="" className='h-[90%] w-[80%] '/> 
                             </div>
                             <p className='text-white text-[1.2em] font-semibold'>Node.js</p>
-                            </a>
+                            </a> */}
 
-                            <a href="" className="h-[8.5rem] sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
+                            {/* <a href="" className="h-[8.5rem] sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
                             <div className='h-[50%] w-[55%] sm:h-[55%] sm:w-[65%] lg:h-[65%] md:w-[55%] bg-green-500/15 rounded-full flex flex-row justify-center items-center '>
                             <img src={express} alt="" className='h-[90%] w-[80%] invert '/> 
                             </div>
                             <p className='text-white text-[1.2em] font-semibold'>Express.js</p>
-                            </a>
+                            </a> */}
 
                             <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
                             <div className='h-[50%] w-[55%] sm:h-[55%] sm:w-[65%] lg:h-[65%] md:w-[55%] bg-sky-500/15 rounded-full flex flex-row justify-center items-center'>
@@ -99,12 +99,12 @@ function Skill(){
                             <p className='text-white text-[1.2em] font-semibold'>SQL</p>
                             </a>
 
-                            <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
+                            {/* <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
                              <div className='h-[50%] w-[55%] sm:h-[55%] sm:w-[65%] lg:h-[65%] md:w-[55%] bg-green-500/15 rounded-full flex flex-row justify-center items-center'>
                             <img src={mongodb} alt="" className='h-[90%] w-[80%] '/> 
                             </div>
                             <p className='text-white text-[1.2em] font-semibold'>MongoDB</p>
-                            </a>
+                            </a> */}
 
                             <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
                              <div className='h-[50%] w-[55%] sm:h-[55%] sm:w-[65%] lg:h-[65%] md:w-[55%] bg-blue-500/15 rounded-full flex flex-row justify-center items-center'>
@@ -113,12 +113,12 @@ function Skill(){
                             <p className='text-white text-[1.2em] font-semibold'>C++</p>
                             </a>
 
-                            <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
+                            {/* <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
                              <div className='h-[50%] w-[55%] sm:h-[55%] sm:w-[65%] lg:h-[65%] md:w-[55%]   bg-blue-500/15 rounded-full flex flex-row justify-center items-center'>
                             <img src={python} alt="" className='h-[90%] w-[80%] '/> 
                             </div>
                             <p className='text-white text-[1.2em] font-semibold'>Python</p>
-                            </a>
+                            </a> */}
 
                             <a href="" className="h-[8.5rem]  sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
                              <div className='h-[50%] w-[55%] sm:h-[55%] sm:w-[65%] lg:h-[65%] md:w-[55%]   bg-blue-500/15 rounded-full flex flex-row justify-center items-center'>
@@ -141,12 +141,12 @@ function Skill(){
                             <p className='text-white text-[1.2em] font-semibold'>GitHub</p>
                             </a>
 
-                            <a href="" className="h-[8.5rem] sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
+                            {/* <a href="" className="h-[8.5rem] sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
                              <div className='h-[50%] w-[55%] sm:h-[55%] sm:w-[65%] lg:h-[65%] md:w-[55%]   bg-orange-500/15 rounded-full flex flex-row justify-center items-center'>
                             <img src={postman} alt="" className='h-[90%] w-[80%] '/> 
                             </div>
                             <p className='text-white text-[1.2em] font-semibold'>Postman</p>
-                            </a>
+                            </a> */}
 
                             <a href="" className="h-[8.5rem] sm:w-[20%] md:w-[18%]  lg:w-[15%] bg-slate-800 rounded-lg mt-5 ml-2 mr-2 flex flex-col justify-evenly items-center hover:transform hover:-translate-y-2 duration-300 group" id="anchor">
                              <div className='h-[50%] w-[55%] sm:h-[55%] sm:w-[65%] lg:h-[65%] md:w-[55%] bg-indigo-500/15 rounded-full flex flex-row justify-center items-center'>

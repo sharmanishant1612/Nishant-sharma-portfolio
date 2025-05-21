@@ -1,6 +1,7 @@
 import './contact.css'
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 function Contact(){
 
          const form = useRef();
@@ -14,10 +15,21 @@ function Contact(){
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          // console.log('SUCCESS!');
+          Swal.fire({
+          title: "Thank you for contact us!",
+          text: "Form submitted successfully",
+          icon: "success"
+        });
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          // console.log('FAILED...', error.text);
+          Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Something went wrong!",
+          // footer: '<a href="#">Why do I have this issue?</a>'
+        });
         },
       );
   };  

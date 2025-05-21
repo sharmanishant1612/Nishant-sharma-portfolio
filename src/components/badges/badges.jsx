@@ -4,7 +4,7 @@ import './badges.css'
 function Badges(){
     return(
         <>
-          <div className="sm:h-screen bg-slate-800" id='badges'>
+          <div className="sm:h-screen  xl:h-full xl:pb-10 bg-slate-800" id='badges'>
                 <p className="text-indigo-400 font-semibold pt-16 text-center text-[2.5rem]">Coding Badges</p>
                 <div className="w-[100%] flex justify-center mt-6">
                     <div className="sm:h-[24rem] md:h-[26rem]  sm:w-[40%] md:w-[35%] lg:w-[30%] bg-slate-900 rounded-lg flex flex-col justify-center items-center" id='badge'>

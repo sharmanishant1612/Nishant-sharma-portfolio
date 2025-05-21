@@ -115,7 +115,7 @@ function Home(){
         <>
            
             
-            <div className=" md:h-screen bg-slate-900 background" id='home'>
+            <div className=" md:h-screen xl:h-full bg-slate-900 background" id='home'>
                 {/* navbaar render */}
                <div className='text-white  h-[4rem] '>
                 <Navbar/>

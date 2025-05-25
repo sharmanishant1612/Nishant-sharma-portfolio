@@ -1,11 +1,18 @@
-.background{
+.dark .background{
   /* background-color: #1a1f2d; dark navy background */
   background-image: 
     linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
  background-size: 26px 26px; /* adjust based on your grid spacing  #001f3f */
  
-} 
+}
+
+ .background {
+  background-image: 
+    linear-gradient(to right, rgb(29, 78, 216, 0.1) 1px, transparent 1px), /* slate-500-ish */
+    linear-gradient(to bottom, rgb(29, 78, 216, 0.1) 1px, transparent 1px);
+    background-size: 26px 26px;
+}
 
  @media screen and (min-width:400px) and (max-width:640px) {
     #image{

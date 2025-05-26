@@ -22,7 +22,7 @@ import vite from './Vite.js.png'
 function Skill(){
     return(
         <>
-        <div className=" bg-slate-100 dark:bg-slate-900" id="skills">
+        <div className=" bg-white dark:bg-slate-900" id="skills">
                 <h1 className="text-center text-indigo-400 text-[2.5em] font-bold pt-10">Skills</h1>
 
                 <div className=" w-[100%] flex justify-center items-center mt-8">

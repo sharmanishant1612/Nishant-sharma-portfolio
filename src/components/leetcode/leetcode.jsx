@@ -4,7 +4,7 @@ function Leetcode(){
     return(
         <>
             <div className="md:h-screen xl:h-full xl:pb-10 bg-white dark:bg-slate-900" id='leetcode'>
-                <p className="text-indigo-400 text-[2rem] sm:text-[2.5rem] font-semibold text-center pt-20">LeetCode Progress</p>
+                <p className="text-indigo-700 dark:text-indigo-400 text-[2rem] sm:text-[2.5rem] font-semibold text-center pt-20">LeetCode Progress</p>
 
                 <div className="w-[100%] mt-5 flex flex-col items-center md:flex-row md:justify-around ">
                         <div className="h-[15rem] w-[80%] sm:w-[65%] md:w-[40%] lg:w-[35%] mt-10 ">

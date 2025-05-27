@@ -33,7 +33,7 @@ function Certificate(){
     return(
         <>
             <div className=" bg-white dark:bg-slate-800" id='certificates'>
-                <p className="text-[2.5em] text-indigo-400 text-center pt-16">Certificate</p>
+                <p className="text-[2.5em] text-indigo-700 font-semibold dark:text-indigo-400 text-center pt-16">Certificate</p>
                 <div className=" flex justify-center pb-10">
                     {/* inner div */}
                     <div className="h-[25rem]  sm:w-[55%]  flex justify-center gap-2 sm:gap-5 md:gap-10 items-center px-2" id='outerdiv'>

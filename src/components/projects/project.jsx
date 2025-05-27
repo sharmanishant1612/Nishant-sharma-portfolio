@@ -7,7 +7,7 @@ function Project(){
     return(
         <>
         <div className=" bg-black/5 dark:bg-slate-800" id='projects'>
-            <p className="text-indigo-400 text-[2.5em] font-semibold text-center pt-20">Projects</p>
+            <p className="text-indigo-700 dark:text-indigo-400 text-[2.5em] font-semibold text-center pt-20">Projects</p>
 
             <div className="w-[100%] flex justify-center mt-5   pb-5">
                     
@@ -41,7 +41,7 @@ function Project(){
 
                     </div>
 
-                    <div className="h-[] py-3 sm:py-0 mt-14 sm:w-[18rem] md:w-[20rem] lg:w-[22rem] bg-black/5 dark:bg-slate-900 sm:mt-3 rounded-lg flex flex-col items-center border border-black/5 hover:border-blue-400 hover:transition-all duration-300 group ">
+                    <div className="h-[] py-3 sm:py-0 mt-14 sm:w-[18rem] md:w-[20rem] lg:w-[22rem] bg-white dark:bg-slate-900 sm:mt-3 rounded-lg flex flex-col items-center border border-black/5 hover:border-blue-400 hover:transition-all duration-300 group ">
                         <img src={todo} alt="" className='h-[12rem] w-[90%] mt-2 rounded-md object-fill group-hover:scale-105 transform-all duration-300'/>
                         <div className='h-[2.5rem] w-[90%] flex justify-between items-center text-black/90 dark:text-white/90 mt-2'>
                             <p className='text-[1.2em] font-semibold'>To-Do List App </p>
@@ -65,7 +65,7 @@ function Project(){
 
                         </div>
                     </div>
-                    <div className="h-[] py-3 sm:py-0 mt-14 mb-8 sm:mb-0 sm:w-[18rem] md:w-[20rem] lg:w-[22rem] bg-black/5 dark:bg-slate-900 sm:mt-3 rounded-lg flex flex-col items-center border border-black/5 hover:border-blue-400 hover:transition-all duration-300 group">
+                    <div className="h-[] py-3 sm:py-0 mt-14 mb-8 sm:mb-0 sm:w-[18rem] md:w-[20rem] lg:w-[22rem] bg-white dark:bg-slate-900 sm:mt-3 rounded-lg flex flex-col items-center border border-black/5 hover:border-blue-400 hover:transition-all duration-300 group">
                         <img src={portfolio} alt="" className='h-[12rem] w-[90%] mt-2 rounded-md object-fill group-hover:scale-105 duration-300 '/>
                         <div className='h-[2.5rem] w-[90%] flex justify-between items-center text-black/90 dark:text-white/90 mt-2'>
                             <p className='text-[1.2em] font-semibold'>Portfolio </p>

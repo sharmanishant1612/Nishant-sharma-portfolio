@@ -5,7 +5,7 @@ function Badges(){
     return(
         <>
           <div className="sm:h-screen  xl:h-full xl:pb-10 bg-black/5 dark:bg-slate-800" id='badges'>
-                <p className="text-indigo-400 font-semibold pt-16 text-center text-[2.5rem]">Coding Badges</p>
+                <p className=" text-indigo-700 dark:text-indigo-400 font-semibold pt-16 text-center text-[2.5rem]">Coding Badges</p>
                 <div className="w-[100%] flex justify-center mt-6">
                     <div className="sm:h-[24rem] md:h-[26rem]  sm:w-[40%] md:w-[35%] lg:w-[30%] bg-black/15 dark:bg-slate-900 rounded-lg flex flex-col justify-center items-center" id='badge'>
                         <img src={Badge} alt="" className='h-[70%]' />

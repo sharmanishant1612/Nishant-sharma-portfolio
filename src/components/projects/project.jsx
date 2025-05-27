@@ -20,7 +20,7 @@ function Project(){
 
                             <p>
                             <a href="https://github.com/sharmanishant1612/currency-converter"><i className="fa-brands fa-github mr-7 text-[1.5em]"></i></a>
-                            <a href="https://currency-converter-psi-livid.vercel.app/"><i className="fa-solid fa-globe mr-3 text-[1.5em]"></i></a>
+                            <a href="https://currency-converter-psi-livid.vercel.app/" target='_blank'><i className="fa-solid fa-globe mr-3 text-[1.5em]"></i></a>
                             </p>
                         </div>
                         <p className='w-[90%] text-black/70 dark:text-white/80 font-semibold pt-2'>
@@ -48,7 +48,7 @@ function Project(){
 
                             <p>
                             <a href="https://github.com/sharmanishant1612/todo-list"><i className="fa-brands fa-github mr-7 text-[1.5em]"></i></a>
-                            <a href="https://todo-list-rho-ten-58.vercel.app/"><i className="fa-solid fa-globe mr-3 text-[1.5em]"></i></a>
+                            <a href="https://todo-list-rho-ten-58.vercel.app/" target='_blank'><i className="fa-solid fa-globe mr-3 text-[1.5em]"></i></a>
                             </p>
                         </div>
                          <p className='w-[90%] text-black/70 dark:text-white/80 font-semibold pt-2'>
@@ -72,7 +72,7 @@ function Project(){
 
                             <p>
                             <a href="https://github.com/sharmanishant1612/Nishant-sharma-portfolio"><i className="fa-brands fa-github mr-7 text-[1.5em]"></i></a>
-                            <a href="https://nishant-sharma-portfolio-f55h.vercel.app/"><i className="fa-solid fa-globe mr-3 text-[1.5em]"></i></a>
+                            <a href="https://nishant-sharma-portfolio-yhsm.vercel.app/" target='_blank'><i className="fa-solid fa-globe mr-3 text-[1.5em]"></i></a>
                             </p>
                         </div>
                          <p className='w-[90%] text-black/70 dark:text-white/80 font-semibold pt-2'>

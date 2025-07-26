@@ -129,7 +129,7 @@ function Home(){
 
                          
 
-                        <img src={image} alt="" className='h-[10rem] w-[10rem] sm:h-[23rem] sm:w-[23rem] md:h-[25rem] md:w-[24rem] md:self-start rounded-full lg:h-[27rem] lg:w-[25rem] ' id='image' />
+                        <img src={image} alt="" className=' h-[10rem] w-[10rem] sm:h-[23rem] sm:w-[23rem] md:h-[25rem] md:w-[24rem] md:self-start rounded-full lg:h-[27rem] lg:w-[25rem] ' id='image' />
                     
                      <div className=' md:h-[30rem]  flex flex-col items-center justify-start  mt-8 md:mt-0' id='details'>
                        

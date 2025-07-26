@@ -29,12 +29,12 @@ function Footer (){
                 </div>
                 <div className="  mt-6 flex flex-col justify-center">
                     <p className='text-gray-400 px-3 text-center'><i className="fa-solid fa-copyright"></i><span> 2025 Nishant Sharma. All rights reserved.</span></p>
-                    <p className='flex justify-center items-center text-gray-400'>
+                    {/* <p className='flex justify-center items-center text-gray-400'>
                         <span className='pr-1'>Build with </span>
                         <img src={react} alt="" className='h-[1.2rem] w-[1.2rem] animate-spin' />
                         <span className='px-1'>using  </span>
                         <img src={vite} alt="" className='h-[1.2rem] w-[1.2rem]' />
-                    </p>
+                    </p> */}
                 </div>
         </div>
         </>
